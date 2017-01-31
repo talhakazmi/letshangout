@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/tests
+END
+UnitTest
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/tests/UnitTest
+END
+WebTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/tests/WebTestCase.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/tests/bootstrap.php
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/tests/phpunit.xml
+END

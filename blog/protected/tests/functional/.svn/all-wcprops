@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/tests/functional
+END
+CommentTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/tests/functional/CommentTest.php
+END
+SiteTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/tests/functional/SiteTest.php
+END
+PostTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/tests/functional/PostTest.php
+END

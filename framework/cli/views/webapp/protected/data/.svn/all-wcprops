@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/webapp/protected/data
+END
+schema.mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/webapp/protected/data/schema.mysql.sql
+END
+testdrive.db
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/webapp/protected/data/testdrive.db
+END
+schema.sqlite.sql
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/webapp/protected/data/schema.sqlite.sql
+END

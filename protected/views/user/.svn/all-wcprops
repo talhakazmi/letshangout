@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user
+END
+standalone-signup.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user/standalone-signup.php
+END
+standalone-signin.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user/standalone-signin.php
+END
+forgot-password.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user/forgot-password.php
+END
+reset-password.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user/reset-password.php
+END
+signup.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user/signup.php
+END
+dashboard.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user/dashboard.php
+END
+signin.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/user/signin.php
+END

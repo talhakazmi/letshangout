@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema
+END
+CDbSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/CDbSchema.php
+END
+CDbCriteria.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/CDbCriteria.php
+END
+CDbCommandBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/CDbCommandBuilder.php
+END
+CDbTableSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/CDbTableSchema.php
+END
+CDbColumnSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/CDbColumnSchema.php
+END
+CDbExpression.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/CDbExpression.php
+END

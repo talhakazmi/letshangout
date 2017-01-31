@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/events
+END
+detail.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/events/detail.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/events/create.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/events/index.php
+END
+list-item.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/events/list-item.php
+END

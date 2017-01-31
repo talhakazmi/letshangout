@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/commands
+END
+WebAppCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/commands/WebAppCommand.php
+END
+MessageCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/commands/MessageCommand.php
+END
+ShellCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/commands/ShellCommand.php
+END
+MigrateCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/commands/MigrateCommand.php
+END

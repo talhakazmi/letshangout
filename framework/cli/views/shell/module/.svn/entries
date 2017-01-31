@@ -1,0 +1,77 @@
+10
+
+dir
+749
+https://vsvn1.matrix.com/svn/LetsHangOut/trunk/src/letshangout/framework/cli/views/shell/module
+https://vsvn1.matrix.com/svn/LetsHangOut
+
+
+
+2016-05-25T09:57:23.302627Z
+729
+stalha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+930726bc-55de-754d-aa1e-8fc4151e6f2a
+
+models
+dir
+
+components
+dir
+
+controllers
+dir
+
+messages
+dir
+
+module.php
+file
+
+
+
+
+2017-01-31T06:19:58.510760Z
+a97ef89d8542a49d40a950fd89bd1b5c
+2016-05-25T09:57:23.302627Z
+729
+stalha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+707
+
+views
+dir
+

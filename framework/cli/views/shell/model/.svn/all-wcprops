@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/shell/model
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/shell/model/test.php
+END
+model.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/shell/model/model.php
+END
+fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/cli/views/shell/model/fixture.php
+END

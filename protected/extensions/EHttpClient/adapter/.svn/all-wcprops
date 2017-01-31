@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/adapter
+END
+EHttpClientAdapterCurl.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/adapter/EHttpClientAdapterCurl.php
+END
+EHttpClientAdapterSocket.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/adapter/EHttpClientAdapterSocket.php
+END
+EHttpClientAdapterStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/adapter/EHttpClientAdapterStream.php
+END
+EHttpClientException.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/adapter/EHttpClientException.php
+END
+EHttpClientAdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/adapter/EHttpClientAdapterInterface.php
+END
+EProxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/adapter/EProxy.php
+END

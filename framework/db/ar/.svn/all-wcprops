@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/ar
+END
+CActiveRecord.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/ar/CActiveRecord.php
+END
+CActiveRecordBehavior.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/ar/CActiveRecordBehavior.php
+END
+CActiveFinder.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/ar/CActiveFinder.php
+END

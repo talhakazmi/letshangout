@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/web/widgets/pagers
+END
+CBasePager.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/web/widgets/pagers/CBasePager.php
+END
+CListPager.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/web/widgets/pagers/CListPager.php
+END
+CLinkPager.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/web/widgets/pagers/CLinkPager.php
+END
+pager.css
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/web/widgets/pagers/pager.css
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/console
+END
+CConsoleApplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/console/CConsoleApplication.php
+END
+CHelpCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/console/CHelpCommand.php
+END
+CConsoleCommandRunner.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/console/CConsoleCommandRunner.php
+END
+CConsoleCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/console/CConsoleCommand.php
+END
+CConsoleCommandBehavior.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/console/CConsoleCommandBehavior.php
+END
+CConsoleCommandEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/console/CConsoleCommandEvent.php
+END

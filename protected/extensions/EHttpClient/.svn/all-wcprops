@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient
+END
+EHostnameValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/EHostnameValidator.php
+END
+ECookieJar.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/ECookieJar.php
+END
+EHttpCookie.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/EHttpCookie.php
+END
+EHttpResponseStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/EHttpResponseStream.php
+END
+EHttpClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/EHttpClient.php
+END
+EHttpResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/EHttpResponse.php
+END
+EUri.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/EUri.php
+END
+EUriHttp.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/extensions/EHttpClient/EUriHttp.php
+END

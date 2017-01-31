@@ -1,0 +1,10 @@
+/*!CK:3555358645!*//*1421163145,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["STdz4"]); }
+
+__d("DeveloperAppReviewStatus",["AsyncRequest","DOM","Event"],function(a,b,c,d,e,f,g,h,i){var j={registerDevModeToggle:function(k,l){i.listen(k,'change',function(m){m.getTarget().disabled=true;new g(l).setMethod("POST").setData({is_live:m.target.checked}).setServerDialogCancelHandler(function(){var n=h.find(k,'input');n.disabled=false;n.checked=!n.checked;}).send();});}};e.exports=j;},null);
+__d("DevsiteNavigationCard",["CSS","DOMQuery","Event","csx"],function(a,b,c,d,e,f,g,h,i,j){function k(l){"use strict";this.$DevsiteNavigationCard0=l;h.scry(this.$DevsiteNavigationCard0,"._5auw a").forEach(function(m){i.listen(m,'click',function(){g.show('spinner-'+m.id);setTimeout(function(){return g.hide('spinner-'+m.id);},3000);});});}e.exports=k;},null);
+__d("DevsiteURLChanger",["URI"],function(a,b,c,d,e,f,g){var h={changeURL:function(i){var j=new g(location.href),k=new g(i).setDomain(j.getDomain()).setProtocol(j.getProtocol());if(j.toString()===k.toString())return;window.history.replaceState(window.history.state,'',k.setFragment(j.getFragment()).toString());}};e.exports=h;},null);
+__d("XDeveloperSearchControllerURIBuilder",["XControllerURIBuilder"],function(a,b,c,d,e,f){e.exports=b("XControllerURIBuilder").create("\/search\/",{q:{type:"String"}});},null);
+__d("DevsiteBingSearchForm",["Event","Form","goURI","XDeveloperSearchControllerURIBuilder"],function(a,b,c,d,e,f,g,h,i,j){function k(l){"use strict";this.$DevsiteBingSearchForm0=l;g.listen(this.$DevsiteBingSearchForm0.getRoot(),'submit',this.$DevsiteBingSearchForm1.bind(this));}k.prototype.$DevsiteBingSearchForm1=function(){"use strict";var l=h.serialize(this.$DevsiteBingSearchForm0.getRoot()),m=l.query;if(!m)return false;var n=(new j()).setString('q',m).getURI();i(n);return false;};e.exports=k;},null);
+__d("legacy:controlled-referer",["ControlledReferer"],function(a,b,c,d,e,f,g){a.useFacebookReferer=a.useFacebookReferer||g.useFacebookReferer;a.useFacebookRefererHtml=a.useFacebookRefererHtml||g.useFacebookRefererHtml;},3);

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/oci
+END
+COciColumnSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/oci/COciColumnSchema.php
+END
+COciSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/oci/COciSchema.php
+END
+COciCommandBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/oci/COciCommandBuilder.php
+END
+COciTableSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/oci/COciTableSchema.php
+END

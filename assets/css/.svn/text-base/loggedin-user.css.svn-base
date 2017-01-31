@@ -1,0 +1,903 @@
+html{
+	position:relative;
+	min-height:100%;
+}
+
+html, body{	
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	margin-bottom:44px;
+}
+
+a:active{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+
+.default-avatar{
+	width: 25px;
+	height: 25px;
+	overflow: hidden;
+	border-radius: 60px;
+	margin-right: 5px;
+	padding: 0px;
+}
+
+
+.sprite{
+	background:url('../../assets/img/sprite.png');	
+}
+
+
+
+/************************ Heading & Text *************/
+
+.dashboard-title{
+	line-height:44px;
+}
+
+.warning{
+	padding:40px 0px 100px 0px;
+}
+
+/*************** ICONS ******************/
+[class^="icon-"]{
+	width:44px;
+	height:44px;		
+	background:url('../../assets/img/sprite.png') no-repeat;
+	-webkit-transition: none;
+	   -moz-transition: none;
+	    -ms-transition: none;
+	     -o-transition: none;
+	        transition: none;
+}
+
+.icon-notification{
+	background-position:0px 0px;
+}
+
+.icon-notification-active{
+	background-position:0px -44px;
+}
+
+
+.icon-notification:hover{
+	background-position:1px -45px;
+}
+
+.icon-reload{
+	background-position: -52px -10px;
+	float: left;
+	transition: all 0.5s;
+	width: 20px;
+	height: 20px;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+
+.icon-reload:hover{
+	transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+}
+
+.icon-in{
+	background-position: -58px -37px;	
+}
+
+.icon-maybe{
+	background-position:-57px -76px;
+}
+.icon-decline{
+	background-position:-57px -118px;
+}
+.icon-onway{
+	background-position: -106px 0px;
+	width: 24px;
+	height: 24px;
+	margin-top: 2px;
+	position: absolute;
+}
+.icon-arrived{
+	background-position:-148px 0px;
+	width: 24px;
+	height: 24px;
+	margin-top: 2px;
+	position: absolute;
+}
+.icon-late{
+	background-position:-190px 0px;
+	width: 24px;
+	height: 24px;
+	margin-top: 2px;
+	position: absolute;
+}
+
+
+.icon-food{
+	background-position: -120px -98px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;	
+	margin-right:5px;
+	position: absolute;
+	left: 0;
+}
+.icon-event{
+	background-position: -120px -48px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;	
+	margin-right:5px;
+	position: absolute;
+	left: 0;
+}
+.icon-movies{
+	background-position: -120px -74px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;	
+	margin-right:5px;
+	position: absolute;
+	left: 0;
+}
+.icon-coffee{
+	background-position: -120px -124px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;	
+	margin-right:5px;
+	position: absolute;
+	left: 0;
+}
+.icon-other{
+	background-position: -120px -146px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;	
+	margin-right:5px;
+	position: absolute;
+	left: 0;
+}
+
+/************** Dashboard Icons *************/
+
+.plan-icons{
+	width:102px;
+	height:102px;	
+	border-radius:102px;
+	position:relative;
+	left:50%;
+	margin-left:-51px;
+	margin-bottom:15px;
+}
+
+
+.liveplan{
+	border:2px solid #478d02;
+}
+
+.confirmplan{
+	border:2px solid #ff9c00;
+}
+
+.openplan{
+	border:2px solid #0175e2;
+}
+
+.icon-liveplan{
+	background-position:0px -90px;	
+}
+.icon-confirmplan{
+	background-position:0px -153px;	
+}
+.icon-openplan{
+	background-position:0px -209px;	
+	height:48px;
+}
+
+.centered-icon{
+	left: 50%;
+	margin-left: -22px;
+	position: absolute;
+	top: 50%;
+	margin-top: -22px;
+}
+
+
+.status-labels{
+	font-weight: bold;
+	font-size:16px;
+}
+
+.status-count{
+	font-size:20px;
+}
+
+
+
+.openplan + .status-labels > .status-count{
+	color:#0175e2;
+}
+
+.confirmplan + .status-labels > .status-count{
+	color:#ff9c00;
+}
+
+.liveplan + .status-labels > .status-count{
+	color:#478d02;
+}
+
+
+.filter{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+.filter li{
+	display:inline-block;
+	padding:2px 8px;
+}
+
+.filter input[type="radio"]{
+	display:none;
+}
+
+
+.openstatus-label{
+	background:#0175e2;
+	color:#fff;
+	border-radius:4px;
+	padding:4px 8px;
+	font-size:12px;
+	font-weight: bold;
+}
+.confirmstatus-label{
+	background:#ff9c00;
+	color:#fff;
+	border-radius:4px;
+	padding:4px 8px;
+	font-size:12px;
+	font-weight: bold;
+}
+.livestatus-label{
+	background:#478d02;
+	color:#fff;
+	border-radius:4px;
+	padding:4px 8px;
+	font-size:12px;
+	font-weight: bold;
+}
+
+/******************** Dashboard Plan lists ***************************/
+
+.plans{
+	margin:20px 0px 30px;
+	display: table;
+	width: 100%;
+}
+.mini-container{
+	margin-left:10px;
+	padding:10px 20px;
+	box-shadow: #bcbcbc 0px 0px 3px;
+	position:relative;
+	float:left;
+	width:92%;
+}
+
+.mini-container h1{
+	margin-top:0px;
+}
+
+.mini-container h1 a{
+	font-size:30px;
+	font-weight: normal;
+	color:#333333;
+}
+
+.mini-container h1 a:hover{
+	color:#156bbb;
+}
+
+
+.mini-container .leftPan{		
+	float:left;
+	width:70%;
+	border-right:1px solid #dbdbdb;
+}
+
+.mini-container .rightPan{
+	width:30%;		
+	float:left;
+}
+
+.mini-container .fullPan{		
+	float:left;
+	width:100%;	
+}
+
+.mini-container .rightPan h3{
+	font-size:20px;
+	margin-top:10px;
+	padding:0px 15px;
+}
+
+
+.user-avatar{
+	float:left;
+}
+
+.plan-status{
+	color:#838383;
+	font-size:18px;
+}
+
+.plan-status a:hover{
+	text-decoration: none;
+}
+
+
+.plan-activity{
+	margin-top:20px;
+	font-size:16px;
+}
+
+
+.content-50{
+	width:49%;
+	float:left;
+}
+
+.plan-activity strong, .plan-activity span{
+	position:relative;
+	display:block;
+}
+
+.plan-activity span{
+	font-size:15px;
+}
+
+.plan-activity .plan-venue{
+	max-width:248px;
+}
+
+.user-list {	
+	padding-left: 25px;
+	padding-top: 10px;	
+}
+
+.participant-scroll{
+	height:250px;
+	overflow:hidden;
+}
+
+.otherparticipants{
+	padding-left:20px;
+	padding-top:10px;
+	display:block;
+}
+
+
+.suggestions-mini{
+	padding:5px 5px 10px 5px;
+	border-bottom:1px solid #dbdbdb;
+	margin-bottom:10px;
+	position:relative;
+}
+
+.suggestions-mini-no-bar{
+	padding:5px 5px 10px 5px;
+	/*border-bottom:1px solid #dbdbdb;*/
+	margin-bottom:10px;
+	position:relative;
+}
+
+.toolbar-suggestion{
+	position:absolute;
+	right:10px;
+	z-index: 9;
+}
+
+.vote-count{
+	display:inline-block !important;
+	height:20px;
+	line-height: 20px; 
+	padding:5px;
+	color:#888;
+}
+
+
+
+.vote-up{
+	display:inline-block;
+	font-size:18px;
+	color:#888;
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;	
+	padding:5px;
+
+}
+
+.vote-up:hover{
+	text-decoration: none;
+	color:#075197;
+}
+
+.voted-up{
+	color:#075197;
+	display:inline-block;
+	font-size:18px;
+	height:20px;
+	line-height: 20px; 
+	padding:5px;
+}
+
+.ustatus-count{
+	height:40px;
+	line-height:40px;
+}
+
+.overall-ustatus{
+	padding:0px;
+	padding-top:15px;
+	list-style: none;
+	margin:0px;
+}
+
+.overall-ustatus li{
+	position:relative;
+	display:inline-block;
+	height:40px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+
+
+.postedby{
+	float:left;
+	margin-top:10px;
+	margin-left:88px;
+	height:25px;
+	color:#777777;	
+}
+
+
+.countdown{
+	color:#ff9c00;
+	float:right;
+	font-size:20px;
+	font-weight: normal;
+	margin-top:10px;
+	margin-right:40px;
+}
+
+/*************** Create Plan ********************/
+
+.frm-create{
+	margin-top:20px;
+}
+.create-plan-form{
+	padding:10px 100px;
+	float:left;
+	width:100%;
+}
+
+.create-plan-form input[type="text"]{
+	padding:5px 15px;
+	height:50px;
+}
+
+
+.term{
+	padding: 5px 15px;
+	border: 1px solid #ff9c00;
+	color: #333;
+	float: left;
+	display: inline-block;
+	margin: 0px 15px;
+	position: relative;
+	border-radius: 20px;
+}
+
+.term:active{
+	text-decoration: none;
+	background: #ff9c00;
+	border-bottom: 2px solid #dd8700;
+	color:#fff;
+}
+
+.term.active{
+	text-decoration: none;
+	background: #ff9c00;
+	border-bottom: 2px solid #dd8700;
+	color:#fff;
+}
+
+.term:focus{
+	text-decoration: none;
+}
+.term:hover{
+	text-decoration: none;
+	border-bottom:2px solid #dd8700;
+	background: #ff9c00;
+	color:#fff;
+}
+
+
+
+.term:first-child{
+	margin-left:0px;
+}
+.term:last-child{
+	margin-right:0px;
+}
+
+
+/********************* Detail Page ************************/
+
+#suggestionlists .mini-container{
+	margin-left: 70px;
+	float:none;
+	width:auto;
+	padding:10px 20px;
+}
+
+#suggestionlists .mini-container h1 a{
+	font-size:25px;
+}
+
+#suggestionlists .mini-container hr{
+	margin:5px 0;
+}
+
+#suggestionlists .mini-container .plan-activity{
+	position: relative;
+}
+
+#suggestionlists .mini-container .toolbar-suggestion{
+	top:0px;
+}
+
+#suggestionlists .postedby{
+	margin-left:70px;
+}
+
+.vote-up .fa-thumbs-up{
+	font-size: 20px;
+	height: 40px;
+	line-height: 34px;
+	border: 1px solid #478d02;
+	width: 40px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.vote-up:hover .fa-thumbs-up{
+	background:#478d02;
+	color:#fff;
+}
+.vote-up.active .fa-thumbs-up{
+	background:#478d02;
+	color:#fff;
+}
+
+.mini-container .vote-up span{
+	font-size:inherit;
+	color:#478d02;
+}
+
+
+.mini-container .vote-count{
+	font-size: 16px;
+	height: 40px;
+	line-height: 25px;
+	border: 1px solid #ff9c00;
+	width: 40px;
+	text-align: center;
+	border-radius: 40px;
+	padding: 6px 5px;
+	color: #ff9c00;
+	vertical-align: middle;
+
+}
+
+
+.mini-container .vote-count:hover{
+	background:#ff9c00;
+	color:#fff;
+}
+
+
+/**************** Auto Complete ******************/
+
+.yii-autocomplete{
+	background:#fff;
+	padding:5px;
+	box-shadow: #B2B2B2 0px 1px 2px;
+	margin-top: -1px;
+}
+
+
+.yii-autocomplete ul{
+	list-style: none;
+	margin: 0px;
+	padding: 10px 15px;
+}
+
+.yii-autocomplete ul li{
+	padding:15px 0px;
+	border-bottom:1px solid #f8f8f8;
+	float: left;
+	width: 100%;
+	vertical-align: middle;	
+}
+
+.yii-autocomplete ul li a{
+	font-size:16px;
+	font-weight: bold;
+	color:#545454;
+	
+}
+.yii-autocomplete ul li a:hover, .yii-autocomplete ul li a:active, .yii-autocomplete ul li a:focus{
+	text-decoration: none;
+	color:#545454;
+}
+
+.yii-autocomplete ul li .subtitle{	
+	color: #808080;
+	font-weight: normal;
+	margin:0px;
+}
+
+.yii-autocomplete ul li span{
+	font-size: 12px;
+	color: #1a1a1a;
+	font-weight: normal;
+	margin:0px 10px;
+}
+.yii-autocomplete ul li img{
+	float:left;
+	margin:0px 10px 0 0;
+	width:45px;
+	height:50px;
+	border-radius:4px;
+}
+
+
+.selectionDiv{
+	position: relative;
+	/*top: 24px;*/
+	background: #fff;
+	width: 100%;
+
+}
+
+.selectionDiv .btn-tag{
+	margin-right:15px;
+	margin-top:10px;
+	border:1px solid #ff9c00;
+	border-radius:60px;
+}
+
+.selectionDiv .btn-tag:hover, .selectionDiv .btn-tag.active{
+	background:#ff9c00;
+	color:#fff;
+}
+
+.selectionDiv .nav-tabs{
+	border-bottom:none;
+}
+.selectionDiv .nav-tabs > li > a{
+	padding:0px;
+	border-radius:0px;
+	border:none;
+}
+
+.selectionDiv .nav-tabs > li > a:hover{
+	background-color:transparent;
+	border:none;
+	color:#fff;
+}
+
+.selectionDiv .nav-tabs > li:hover .selectionDiv .nav-tabs > li > a{
+	color:#fff;
+}
+
+.selectionDiv .nav-tabs > li.active > a, .selectionDiv .nav-tabs > li.active > a:hover, .selectionDiv .nav-tabs > li.active > a:focus{
+	background-color:transparent;	
+	border:none;
+	color:inherit;
+}
+
+.updateField {
+	position: absolute;
+	top: 40px;
+	font-weight: 300;
+	background-color: #fff;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	color: rgb(144, 144, 144);
+	border-radius: 5px;	
+	font-size: 30px;
+	line-height: 17px;
+	right:0px;
+	
+}
+
+.movie-selection{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+
+.movie-selection li{
+	display:inline-block;
+}
+
+.movie-selection li img{
+	width:40px;
+	height:40px;
+	border-radius:40px;
+	display:inline-block;
+	margin-right:10px;
+}
+.movie-selection .btn-tag{
+	padding: 6px 10px 6px 10px !important;	
+	color:#333;
+}
+
+
+
+/************* Plan Detail Page *********************/
+
+.add-suggestion {
+	padding-top: 16px;
+	display: block;
+}
+
+.updateStatusOptions, .updatePlanOptions{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+
+.updateStatusOptions li, .updatePlanOptions li{
+	height:25px;
+	line-height: 25px;
+	padding:0 50px 0 10px;
+	font-size:12px;
+}
+
+.updateStatusOptions li a, .updatePlanOptions li a{
+	color:#333;
+	
+}
+
+.updateStatusOptions li a:hover, .updatePlanOptions li a:hover{
+	color:#337ab7;
+	text-decoration: underline;
+	
+}
+
+
+
+.box{
+	box-shadow: #D5D5D5 0px 0px 3px;
+}
+
+input[type="text"].lhinput{
+	padding: 5px 15px;
+	height: 50px;
+}
+
+
+/******* Notification Popover *********/
+.notificationDropdown{
+	min-height: 60px;
+	min-width:250px;
+	left:50%;
+	margin-left:-125px;
+	background:#fff;
+	border-radius:5px;
+	border: 1px solid rgba(0,0,0,0.17);
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);	
+	z-index: 99;
+	position:absolute;
+	padding:10px;
+}
+
+.notificationDropdown ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.notificationDropdown ul li, .notificationDropdown ul li a{
+	font-size:11px;
+	line-height:18px;
+	width:100%;
+	padding:10px 0;
+	
+}
+
+.notificationDropdown ul li img{
+	float:left;
+}
+
+.notificationDropdown ul li a{
+	margin-left: 30px;
+	padding: 0px;
+	width: auto;
+	position:relative;
+	display:block;
+}
+
+.notificationDropdown ul li{
+	border-bottom:1px solid #eaeaea;
+}
+
+.notificationDropdown ul li:last-child{
+	border-bottom:none;
+}
+
+
+.notificationDropdown:before{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left:-3px;
+	border-width: 0 6px 6px 8px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.1) transparent;
+}
+
+.notificationDropdown:after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left:-3px;
+	border-width: 0 6px 6px 6px;
+	border-style: solid;
+	border-color: #fff transparent;
+}
+
+.notificationDropdown .notifications li span{
+	font-size:14px;
+	font-weight:bold;
+	display:block;
+	margin-right:5px;
+	color:#eee;
+}
+
+.notificationBtn > .badge{
+	position: absolute;
+	top: 22px;
+	right: 0px;
+}
+
+
+.dateHeader{
+	font-size:16px;	
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/movies
+END
+sessions-list.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/movies/sessions-list.php
+END
+detail.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/movies/detail.php
+END
+embed-player.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/movies/embed-player.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/movies/index.php
+END
+list-item.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/protected/views/movies/list-item.php
+END

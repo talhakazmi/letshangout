@@ -1,0 +1,22 @@
+2014/12/24 12:21:47 [error] [exception.CException] exception 'CException' with message 'Cannot hash a password that is empty or not a string.' in C:\xampp\htdocs\letshangout\framework\utils\CPasswordHelper.php:114
+Stack trace:
+#0 C:\xampp\htdocs\letshangout\blog\protected\models\User.php(78): CPasswordHelper::verifyPassword('', '$2a$10$JTJf6/Xq...')
+#1 C:\xampp\htdocs\letshangout\blog\protected\components\UserIdentity.php(21): User->validatePassword('')
+#2 C:\xampp\htdocs\letshangout\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\letshangout\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\letshangout\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\letshangout\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\letshangout\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#7 C:\xampp\htdocs\letshangout\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#8 C:\xampp\htdocs\letshangout\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\letshangout\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\letshangout\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\letshangout\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\letshangout\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\letshangout\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\letshangout\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\letshangout\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://letshangout.com/blog/index.php/site/login
+---

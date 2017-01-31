@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/data
+END
+schema.mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/data/schema.mysql.sql
+END
+blog-test.db
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/data/blog-test.db
+END
+dbgen.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/data/dbgen.php
+END
+blog.db
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/data/blog.db
+END
+schema.sqlite.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/data/schema.sqlite.sql
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/gii
+END
+CCodeFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/gii/CCodeFile.php
+END
+CCodeModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/gii/CCodeModel.php
+END
+GiiModule.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/gii/GiiModule.php
+END
+CCodeForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/gii/CCodeForm.php
+END
+CCodeGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/gii/CCodeGenerator.php
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils
+END
+CDateTimeParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CDateTimeParser.php
+END
+mimeTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/mimeTypes.php
+END
+CLocalizedFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CLocalizedFormatter.php
+END
+CFileHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CFileHelper.php
+END
+CMarkdownParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CMarkdownParser.php
+END
+CPropertyValue.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CPropertyValue.php
+END
+CPasswordHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CPasswordHelper.php
+END
+CFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CFormatter.php
+END
+CTimestamp.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CTimestamp.php
+END
+CVarDumper.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/utils/CVarDumper.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/pgsql
+END
+CPgsqlSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/pgsql/CPgsqlSchema.php
+END
+CPgsqlCommandBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/pgsql/CPgsqlCommandBuilder.php
+END
+CPgsqlTableSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/pgsql/CPgsqlTableSchema.php
+END
+CPgsqlColumnSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/framework/db/schema/pgsql/CPgsqlColumnSchema.php
+END

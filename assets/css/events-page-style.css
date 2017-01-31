@@ -1,0 +1,52 @@
+
+.events ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+.events ul p{
+	color: #999999;
+}
+
+.events ul .who-is-going{
+	color:#666666;
+	font-weight: 700;
+}
+.events a{
+	color:#156bbb;
+	font-weight: normal;
+}
+
+.events a:hover{
+	text-decoration: none;
+}
+
+.events .show-more{
+	text-align: center;
+}
+.events .show-more{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.events .show-more a{
+	background-color: #b7b7b7;
+	color: #ffffff;
+	border-radius: 4px;
+	font-weight: 700;
+	padding: 8px 24px;
+}
+
+.event-date, .event-location, .event-organizer{
+	color:#666;
+	font-size:18px;
+	font-weight: 300;
+	margin:5px 0;
+}
+
+
+.bg-container{
+	background-color:#18b6ec;
+	background: url('../img/event-bg.jpg') no-repeat;
+	background-size:cover;
+}

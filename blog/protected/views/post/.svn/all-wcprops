@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/view.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/_form.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/create.php
+END
+_comments.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/_comments.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/index.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LetsHangOut/!svn/ver/729/trunk/src/letshangout/blog/protected/views/post/admin.php
+END
